@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		135C2E6628A77AC90081BEDF /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 135C2E6528A77AC90081BEDF /* level1.txt */; };
-		135C2E6828A77ADB0081BEDF /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 135C2E6728A77ADB0081BEDF /* level2.txt */; };
 		13664D06289D4D7700BDF9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13664D05289D4D7700BDF9D4 /* AppDelegate.swift */; };
 		13664D08289D4D7700BDF9D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13664D07289D4D7700BDF9D4 /* SceneDelegate.swift */; };
 		13664D0A289D4D7700BDF9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13664D09289D4D7700BDF9D4 /* ViewController.swift */; };
 		13664D0D289D4D7700BDF9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13664D0B289D4D7700BDF9D4 /* Main.storyboard */; };
 		13664D0F289D4D7900BDF9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13664D0E289D4D7900BDF9D4 /* Assets.xcassets */; };
 		13664D12289D4D7900BDF9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13664D10289D4D7900BDF9D4 /* LaunchScreen.storyboard */; };
+		1389513128A8D51200A1FC59 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1389513028A8D51200A1FC59 /* level1.txt */; };
+		1389513328A8D58F00A1FC59 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1389513228A8D58F00A1FC59 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		135C2E6528A77AC90081BEDF /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
-		135C2E6728A77ADB0081BEDF /* level2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		13664D02289D4D7700BDF9D4 /* Project8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13664D05289D4D7700BDF9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13664D07289D4D7700BDF9D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +26,8 @@
 		13664D0E289D4D7900BDF9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13664D11289D4D7900BDF9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13664D13289D4D7900BDF9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1389513028A8D51200A1FC59 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level1.txt; path = ../level1.txt; sourceTree = "<group>"; };
+		1389513228A8D58F00A1FC59 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				13664D0E289D4D7900BDF9D4 /* Assets.xcassets */,
 				13664D10289D4D7900BDF9D4 /* LaunchScreen.storyboard */,
 				13664D13289D4D7900BDF9D4 /* Info.plist */,
-				135C2E6528A77AC90081BEDF /* level1.txt */,
-				135C2E6728A77ADB0081BEDF /* level2.txt */,
+				1389513028A8D51200A1FC59 /* level1.txt */,
+				1389513228A8D58F00A1FC59 /* level2.txt */,
 			);
 			path = Project8;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135C2E6828A77ADB0081BEDF /* level2.txt in Resources */,
+				1389513328A8D58F00A1FC59 /* level2.txt in Resources */,
 				13664D12289D4D7900BDF9D4 /* LaunchScreen.storyboard in Resources */,
-				135C2E6628A77AC90081BEDF /* level1.txt in Resources */,
+				1389513128A8D51200A1FC59 /* level1.txt in Resources */,
 				13664D0F289D4D7900BDF9D4 /* Assets.xcassets in Resources */,
 				13664D0D289D4D7700BDF9D4 /* Main.storyboard in Resources */,
 			);
